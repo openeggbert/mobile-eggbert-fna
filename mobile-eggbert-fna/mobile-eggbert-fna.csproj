@@ -2,16 +2,19 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net4.0</TargetFramework>
     <RootNamespace>mobile_eggbert_fna</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="FNADllMap.config">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-</ItemGroup>
+  </ItemGroup>
+    <ItemGroup>
+    <ProjectReference Include="../FNA/FNA.Core.csproj" />
+    <ProjectReference Include="../fnalibs/fnalibs/fnalibs.csproj" />
+  </ItemGroup>
+
 
 </Project>
