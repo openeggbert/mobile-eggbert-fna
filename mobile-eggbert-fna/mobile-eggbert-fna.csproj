@@ -6,6 +6,14 @@
     <RootNamespace>mobile_eggbert_fna</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>FNA</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineConstants>KFNA</DefineConstants>
+  </PropertyGroup>
+
   <ItemGroup>
     <None Include="FNADllMap.config">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

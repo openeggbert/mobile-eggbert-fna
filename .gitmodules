@@ -10,3 +10,6 @@
 [submodule "mobile-eggbert-fna/worlds"]
 	path = mobile-eggbert-fna/worlds
 	url = https://code.openeggbert.com/openeggbert/speedy-blupi-dadagames-worlds
+[submodule "mobile-eggbert-fna/WindowsPhoneSpeedyBlupi"]
+	path = mobile-eggbert-fna/WindowsPhoneSpeedyBlupi
+	url = https://code.openeggbert.com/openeggbert/mobile-eggbert-core
